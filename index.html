@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS & AI Department | Pithapur Raja's Government College</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>CS & AI Department Visuals</h1>
+        <p>Pithapur Raja's Government College (PRGC) Moments</p>
+    </header>
+
+    <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Pics</button>
+        <button class="filter-btn" data-filter="group">Group Pics</button>
+        <button class="filter-btn" data-filter="staff">Pics with Staff</button>
+    </div>
+
+    <main class="gallery-container" id="myGallery"></main>
+
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
