@@ -6,11 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const myPictures = [
        { file: 'images/group/group-1.jpg', title: 'group Photo', downloadName: 'prgc-batch.jpg', category: 'group' },
 	   { file: 'images/group/group-2.jpg', title: 'group Photo', downloadName: 'prgc-batch.jpg', category: 'group' },
-       { file: 'images/group/group-1.jpg', title: 'group Photo', downloadName: 'prgc-batch.jpg', category: 'group' },
-	          { file: 'images/staff/staff-1.jpg', title: 'staff Photo', downloadName: 'prgc-batch.jpg', category: 'staff' },
-		      { file: 'images/staff/staff-2.jpg', title: 'staff Photo', downloadName: 'prgc-batch.jpg', category: 'staff' },
-   	          { file: 'images/staff/staff-3.jpg', title: 'staff Photo', downloadName: 'prgc-batch.jpg', category: 'staff' }
-
+       { file: 'images/group/group-1.jpg', title: 'group Photo', downloadName: 'prgc-batch.jpg', category: 'group' }
+	         
        
     ];
 
